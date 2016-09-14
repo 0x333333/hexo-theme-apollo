@@ -10,7 +10,11 @@ logo: /favicon.png
 
 # Comment
 # e.g disqus: seansun
+<<<<<<< HEAD
 disqus: zhipeng
+=======
+disqus:
+>>>>>>> upstream/master
 duoshuo:
 
 # Analytics

@@ -12,3 +12,6 @@ meta(name="msvalidate.01", content="31FA25C5697C3CA088656A9B63A9013F")
 meta(name="viewport", content="width=device-width, initial-scale=1")
 link(rel="short icon", href=url_for(theme.favicon))
 link(rel="stylesheet", href=url_for("css/apollo.css"))
+
+- var xml = config.url + '/atom.xml'
+    link(rel="search", type="application/opensearchdescription+xml", href=xml, title=config.title)

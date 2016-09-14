@@ -19,8 +19,3 @@ ga: UA-47515905-1
 
 # Copyright Infomation
 startyear: 2013
-
-# Font CDN
-#true : use google fonts api, not stable for chinese visitor sometimes, caused by force majeure factor
-#false: use useso fonts api instead of google's, great response speed for chinese visitor
-googlefonts: false

@@ -5,8 +5,10 @@ title
     block site_title
         = config.title
 block description
-    meta(name="description", content= config.description ? config.description : 'A Blog Powered By Hexo')
-
+block keywords
+    meta(name="keywords", content=page.keywords)
+    
+meta(name="author", content=config.author)
 meta(name="google-site-verification", content="cvPAyZ-ZCL95oXwVejN2W-cxTBfUemEGQOnHKDEQ8Dk")
 meta(name="msvalidate.01", content="31FA25C5697C3CA088656A9B63A9013F")
 meta(name="viewport", content="width=device-width, initial-scale=1")

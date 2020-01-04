@@ -10,7 +10,7 @@ mixin posts()
         - page.posts.each(function (item) {
             li.post-list-item
                 article.post-block
-                    h2.post-title
+                    h1.post-title
                         a.post-title-link(href= url_for(item.path))
                             != item.title
                     +postInfo(item)
@@ -28,7 +28,7 @@ mixin postList()
             - var itemYear = date(item.date, 'YYYY') - 0;
             - change = year !== itemYear;
             - year = change ? itemYear : year;
-            if change 
+            if change
                 h2.archive-year!= year
             .post-item
                 +postInfo(item)

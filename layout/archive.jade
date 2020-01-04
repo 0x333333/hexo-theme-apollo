@@ -1,5 +1,11 @@
 extends partial/layout
 
+block site_title
+    != "Archives | Ox333333"
+
+block description
+    meta(name="description", content="Ox333333's blog posts list.")
+
 block container
     include mixins/post
     +postList()

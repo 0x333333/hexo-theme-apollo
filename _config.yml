@@ -1,8 +1,9 @@
 menu:
     Archive: /archives/
-    GitHub: https://github.com/0x333333
+    # GitHub: https://github.com/0x333333
     About: /about/
     Travel: https://blog.itrack.fit
+    Photography: https://1pixel.cc
     Rss: /atom.xml
 
 favicon: /favicon.png
